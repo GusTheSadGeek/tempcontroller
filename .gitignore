@@ -1,0 +1,12 @@
+relay_pins.conf
+main.conf
+temp_sensors.conf
+.idea
+*.pyc
+*.sched
+mydebug.py
+tank.cfg
+temps.txt
+*.iml
+venv/**
+
