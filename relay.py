@@ -20,13 +20,13 @@ class Relay(object):
     def __init__(self, pin):
         super(Relay, self).__init__()
         self.pin = pin
-        self.controller = None
-        self.controller_or = None
-        self.controller_and = None
+#        self.controller = None
+#        self.controller_or = None
+#        self.controller_and = None
 #        self._logger = logg.TankLog()
-        self.avg = []
-        self.moving_total = 0.0
-        self.controller_state = 99
+#        self.avg = []
+#        self.moving_total = 0.0
+#        self.controller_state = 99
         self.current_state = Relay.UNKNOWN
 
     def init(self):
