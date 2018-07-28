@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import datetime
 import temp_sensor
 import time
